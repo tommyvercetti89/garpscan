@@ -1,5 +1,8 @@
 # GarpScan 🚀
 
+[![Go](https://github.com/tommyvercetti89/garpscan/actions/workflows/test.yml/badge.svg)](https://github.com/tommyvercetti89/garpscan/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 GarpScan is a high-performance, concurrent, and modular open-source cybersecurity scanning framework SDK written in Go.
 
 It acts as a library that developers can import into their own tools to dispatch asynchronous scanning tasks with custom plugins, easily integrating with any existing Golang CLI or backend project.
@@ -48,6 +51,24 @@ func main() {
 }
 ```
 
+## Examples 📂
+For more detailed implementations, check the [examples/](examples/) directory.
+- [Basic Scan Example](examples/basic_scan/main.go)
+
+## Development & Testing 🏗️
+This project includes a `Makefile` to simplify common development tasks:
+
+```bash
+# Run all tests
+make test
+
+# Tidy module dependencies
+make tidy
+
+# Run the basic example
+make example
+```
+
 ## Creating Your Own Plugins 🔌
 You can create a custom plugin by implementing the `garpscan.Plugin` Interface in your tool:
 ```go
@@ -61,4 +82,4 @@ type Plugin interface {
 For a complete manual of methods, functions, and structs, please evaluate our complete [API Reference](API.md).
 
 ## License 📄
-Distributed under the MIT License.
+Distributed under the MIT License. See `LICENSE` for more information.
