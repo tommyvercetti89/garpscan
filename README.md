@@ -79,7 +79,8 @@ type Plugin interface {
 ```
 
 ## Documentation
-For a complete manual of methods, functions, and structs, please evaluate our complete [API Reference](API.md).
+- [Usage Guide](GUIDE.md) — Start here! A beginner-friendly guide to GarpScan.
+- [API Reference](API.md) — Technical details for all functions and methods.
 
 ## License 📄
 Distributed under the MIT License. See `LICENSE` for more information.
