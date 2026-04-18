@@ -14,6 +14,13 @@ It acts as a library that developers can import into their own tools to dispatch
 - **Data Exporting Module**: Streams data sequentially to be easily converted and written into JSON or CSV structures payload files.
 - **Include Battery Plugins**: Comes shipped with a configurable default TCP Port Scanner plugin.
 
+## Beyond Security 🌐
+While GarpScan is designed with cybersecurity in mind, its modular engine can be used for any high-speed concurrent task execution, including:
+- **Network Monitoring**: Uptime and latency checks.
+- **Web Scraping**: Distributed data collection.
+- **System Inventory**: Checking software versions across a fleet.
+- **Health Checks**: Verifying service status at scale.
+
 ## Installation 📦
 
 ```bash

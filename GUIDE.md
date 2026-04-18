@@ -11,6 +11,13 @@ Think of GarpScan as a high-powered car:
 3.  **The Targets:** These are your destinations (IP addresses or Websites).
 4.  **The Result (`garpscan.Result`):** This is the trip report—what happened at each destination.
 
+## 🌈 Versatility: More Than Just Security
+GarpScan started as a security tool, but it's really a **General Purpose Concurrent Runner**. You can write plugins for:
+- **Web Crawling**: Visiting sites to collect data.
+- **Uptime Checks**: Monitoring if your servers are alive.
+- **Log Collection**: Pulling logs from multiple endpoints.
+- **Service Inventory**: Checking what versions of software are running on your network.
+
 ---
 
 ## ⚡ "Cheat Sheet" for Python Users
