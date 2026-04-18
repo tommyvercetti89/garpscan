@@ -64,6 +64,19 @@ reporter.ExportJSON(os.Stdout, resultsChan)
 
 1.  **Context is King:** Always use a `context.WithTimeout` if you want the scan to stop automatically after a certain amount of time.
 2.  **Worker Balance:** If you set `WithWorkers` too high (e.g., 5000), your internet connection might get choked. Start with 50-100 and experiment.
+
+# Run all tests
+make test           # (Linux/macOS)
+.\tasks.ps1 test    # (Windows)
+
+# Tidy module dependencies
+make tidy           # (Linux/macOS)
+.\tasks.ps1 tidy    # (Windows)
+
+# Run the basic example
+make example        # (Linux/macOS)
+.\tasks.ps1 example  # (Windows)
+
 3.  **Check the Examples:** Look at the [examples/](examples/) folder for a fully working script you can copy and paste!
 
 ---

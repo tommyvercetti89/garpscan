@@ -60,13 +60,16 @@ This project includes a `Makefile` to simplify common development tasks:
 
 ```bash
 # Run all tests
-make test
+make test  # (Linux/macOS)
+.\tasks.ps1 test  # (Windows)
 
 # Tidy module dependencies
-make tidy
+make tidy  # (Linux/macOS)
+.\tasks.ps1 tidy  # (Windows)
 
 # Run the basic example
-make example
+make example  # (Linux/macOS)
+.\tasks.ps1 example  # (Windows)
 ```
 
 ## Creating Your Own Plugins 🔌
